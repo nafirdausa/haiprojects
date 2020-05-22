@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(0deg, #edffad, #ffd2ad);
+    height: 100vh;
+    color: #6c5353;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.profile {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.col {
+    padding: 3%;
+    margin: 20px;
+    border: 1px solid #ffffff;
+    color: #6c5353;
+}
+
+.col:hover {
+    background-color: #ffffff;
+    opacity: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+}
